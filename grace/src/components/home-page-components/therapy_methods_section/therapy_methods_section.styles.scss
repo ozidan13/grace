@@ -1,0 +1,39 @@
+/* Default styles */
+.therapy-cards {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 593px;
+  position: relative;
+}
+
+.therapy-card-three {
+  position: relative;
+  top: -10%;
+  left: 25%;
+}
+
+.therapy-card-four {
+  position: relative;
+  top: -10%;
+  left: 24%;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjust this breakpoint as needed */
+  .therapy-cards {
+    background-image: none !important;
+    height: auto;
+  }
+
+  .therapy-card-three,
+  .therapy-card-four {
+    position: static;
+    top: 0;
+    left: 0;
+  }
+
+  .section-title-container {
+    margin-bottom: 53px;
+  }
+}

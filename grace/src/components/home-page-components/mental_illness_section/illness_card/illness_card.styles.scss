@@ -1,0 +1,17 @@
+.illness-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.illness-card {
+  width: 465px;
+  height: 332px;
+}
+
+.illness_title {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}

@@ -1,0 +1,49 @@
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Profile styles */
+.profile {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.profile__name {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile__age,
+.profile__disease,
+.profile__email {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile__age:before,
+.profile__disease:before,
+.profile__email:before {
+  content: "\2022";
+  margin-right: 5px;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  .profile__name {
+    font-size: 24px;
+  }
+
+  .profile__age,
+  .profile__disease,
+  .profile__email {
+    font-size: 16px;
+  }
+}

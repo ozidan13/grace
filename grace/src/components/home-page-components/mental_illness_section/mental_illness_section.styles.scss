@@ -1,0 +1,25 @@
+.illness-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.illness-card {
+  width: 465px;
+  height: 332px;
+}
+
+.illness_title {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjust this breakpoint as needed */
+  .mental_illness_section_container {
+    margin-top: 32rem;
+  }
+}

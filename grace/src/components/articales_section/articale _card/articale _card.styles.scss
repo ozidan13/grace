@@ -1,0 +1,22 @@
+.articale_card {
+  width: 361px;
+  height: 380px;
+  padding: 25px;
+  background: #ffffff;
+  /* Elevation/21 */
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2),
+    0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  .articale_card_short_content {
+    overflow: hidden;
+    text-overflow: ellipsis; /* Optional: add ellipsis to indicate hidden text */
+    white-space: nowrap; /* Optional: prevent text from wrapping */
+  }
+}
+
+.articale_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+.persons_section_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.persons_section_content {
+  margin-top: 2rem;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .swiper-container {
+    slides-per-view: 2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-container {
+    slides-per-view: 1;
+  }
+}

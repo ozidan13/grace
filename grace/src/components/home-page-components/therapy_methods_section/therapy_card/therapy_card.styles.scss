@@ -1,0 +1,30 @@
+.therapy-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.therapy-card {
+  width: 465px;
+  height: 332px;
+}
+
+.therapy_title {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.therapy-cards h1 {
+  color: #303183;
+}
+.therapy_short_content {
+  width: 220px;
+  font-size: 14px;
+}
+
+.therapy_short_content p {
+  color: #217c4e !important;
+}

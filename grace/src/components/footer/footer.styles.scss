@@ -1,0 +1,50 @@
+.footer-component {
+  padding: 32px;
+  min-height: 104px;
+  background: #303183;
+  font-family: "Cairo";
+  text-align: center;
+  margin-top: 20px;
+
+  p {
+    color: white !important;
+  }
+
+  .footer-sections {
+  }
+  // sections
+  .footer-sections ul {
+    list-style: none;
+  }
+
+  .footer-sections ul li {
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .footer-sections ul li:last-child {
+    margin-right: 0;
+  }
+
+  .footer-sections ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  // contact
+
+  .footer-contact a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-contact img {
+    width: 3%;
+    margin-right: 16px;
+  }
+}

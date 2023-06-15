@@ -1,0 +1,66 @@
+.sideeffect {
+  position: absolute;
+  top: 27px;
+  right: -1px;
+  z-index: -1;
+}
+
+.signin_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin_form {
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  border: 1px solid #303183;
+  border-radius: 31px;
+  background-color: #fff;
+}
+
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.form_links {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.form_links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form_links a:hover {
+  text-decoration: underline;
+}
